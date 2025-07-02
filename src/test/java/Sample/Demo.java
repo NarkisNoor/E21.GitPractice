@@ -1,8 +1,12 @@
 package Sample;
 
+import org.testng.annotations.Test;
+
 public class Demo {
 
-	public static void main(String[] args) {
+	@Test(groups = "SmokeSuite")
+	
+	public void tc_demo() {
 		// TODO Auto-generated method stub
 
 		System.out.println("Hi");
